@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/*============ reset CSS ============*/
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+	vertical-align: baseline;
+}
+
+/*============ base CSS ============*/
+
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-varient: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-varient: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --transition: all 0.4 ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+  }
+  
+/*============ primary CSS ============*/
+html {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-primary)
+}
+
+.section {
+    margin-top: 20rem;
+}
+
+.container {
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+    transition: var(--transition);
+}
