@@ -1,13 +1,20 @@
+import Cta from './Cta'
 import './header.css'
+import HeroText from './HeroText'
+import Socials from './Socials'
 
 const Header = () => {
   return (
-    <header>
-      <div className='header__container'>
-        <h4>Hello, I'm</h4>
-        <h2>Muhaimin Habib</h2>
-        <h5>Frontend Developer</h5>
-      </div>  
+    <header className='header'>
+      <div className='header__text'>
+        <HeroText />
+      </div>
+      <div className="header__cta">
+        <Cta />
+      </div>
+      <div className='header__socials'>
+        <Socials />  
+      </div> 
     </header>
     
 
