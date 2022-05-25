@@ -1,8 +1,8 @@
 const Cta = () => {
     return (
-        <div>
-            <a href="#">Download CV</a>
-            <a href="#">Let's Talk</a>
+        <div className="Cta__contatiner">
+            <a href="#" id="Cta__contatiner__download" className="button">Download CV</a>
+            <a href="#" id="Cta__contatiner__talk" className="button">Let's Talk</a>
         </div>
     )
 }

@@ -1,0 +1,84 @@
+.header {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+.subsection {
+    margin-top: 2rem;
+} 
+
+/*============ Header text CSS ============*/
+
+.header__text {
+
+}
+
+.heroText__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+/*============ cta CSS ============*/
+
+.header__cta {
+
+}
+
+.Cta__contatiner {
+    display: flex;
+    gap: 2rem;
+}
+
+#Cta__contatiner__talk {
+    background-color: var(--color-primary);
+    color: var(--color-bg)
+}
+
+#Cta__contatiner__talk:hover {
+    background-color: var(--color-white);
+    outline:1px solid var(--color-white)
+}
+
+/*============ photo CSS ============*/
+
+.centerImage__contanier {
+    display: flex;
+    flex-grow: 1;
+    background-image: url("../../assets/me.png");
+}
+
+/*============ socials CSS ============*/
+.header__socials {
+
+}
+
+.socials__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 10rem;
+}
+
+/*============ scroll CSS ============*/
+
+.header__scroll {
+    
+}
+
+.scroll__container {
+    position: absolute;
+    right: 0;
+    bottom: 10rem;
+}
+
+/* .scroll__container__link {
+    transform: translateX(-90deg);
+} */

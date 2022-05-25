@@ -19,11 +19,15 @@
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
-    --transition: all 0.4 ease;
+    --transition: all 0.4s ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
+
+    --section-height-lg: 100vh;
+    --section-height-md: 85vh;
+    --section-height-sm: 100vh;
   }
   
 /*============ primary CSS ============*/
@@ -39,13 +43,15 @@ body {
     color: var(--color-primary)
 }
 
-.section {
-    margin-top: 20rem;
-}
 
 .container {
     margin: 0 auto;
     width: var(--container-width-lg)
+}
+
+
+.section {
+    height: var(--section-height-lg);
 }
 
 h2 {
@@ -64,6 +70,18 @@ h5 {
     color: var(--color-light);
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+.button {
+    padding: 1rem;
+    outline: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+}
+
+.button:hover {
+    color: var(--color-bg);
+    background-color: var(--color-white);
+    outline: 1px solid var(--color-white);
 }
 
 a {
