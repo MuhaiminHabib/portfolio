@@ -38,6 +38,7 @@ html {
 }
 
 body {
+    text-align: center;
     background-color: var(--color-bg);
     background-image: url("./assets/bg-texture.png");
     color: var(--color-primary)
@@ -93,4 +94,15 @@ a {
 
 a:hover {
     color: var(--color-white);
+}
+
+/*============ media query ============*/
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    
 }
