@@ -7,7 +7,7 @@ const Socials = () => {
         <a href='#' target='_blank'><BsLinkedin /></a>
         <a href='#' target='_blank'><BsGithub /></a>
         <a href='#' target='_blank'><BsFacebook /></a> 
-        <p className="line"></p>
+        <p id="line"></p>
 
     </div>
   )

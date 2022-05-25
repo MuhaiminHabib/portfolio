@@ -61,10 +61,17 @@
 .socials__container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
     position: absolute;
     left: 0;
-    bottom: 10rem;
+    bottom: 8rem;
+}
+
+#line {
+    height: 2rem;
+    width: 2px ;
+    background-color: var(--color-primary);
 }
 
 /*============ scroll CSS ============*/
@@ -77,6 +84,7 @@
     position: absolute;
     right: 0;
     bottom: 10rem;
+    transform: rotate(90deg);
 }
 
 /* .scroll__container__link {
