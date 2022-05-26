@@ -52,16 +52,22 @@
     width: 27rem;
     border-radius: 20rem 20rem 0 0;
     background-image: linear-gradient(var(--color-primary), transparent);
+    position: relative;
+    overflow: hidden;
 }
 
-/* .centerImage__contanier {
-    background-color: aqua;
-} */
-
-.img {
-   
+.centerImage__contanier {
+    position: absolute;
+    bottom: -3rem;
+    overflow: hidden;
+    
 }
 
+.centerImage__contanier__img {
+    max-width: 60%;
+    height: auto;
+
+}
 /*============ socials CSS ============*/
 .header__socials {
 
