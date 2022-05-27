@@ -1,8 +1,12 @@
-import './about.css'
+import SectionText from '../../sectionText/SectionText';
+import './about.css';
+
 
 const About = () => {
   return (
-    <section id="about">About</section>
+    <section id="about">
+      <SectionText />
+    </section>
   )
 }
 
